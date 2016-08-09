@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		838AF19F12EBF18390BAEABB /* Pods_neotropicalRaptors.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 248C35A5A4A689D4139A3F1E /* Pods_neotropicalRaptors.framework */; };
-		9D935BA727CE221B8A3C26DE /* Pods_neotropicalRaptorsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA901580FCF550FB9D22D5AE /* Pods_neotropicalRaptorsUITests.framework */; };
-		C06433631C5065203CE087F7 /* Pods_neotropicalRaptorsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 041030CC6BB05385C3A0CDDC /* Pods_neotropicalRaptorsTests.framework */; };
+		23BEA45AC7FE9BA83F3F9043 /* Pods_neotropicalRaptorsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 797D07A7AC423D0C7EA0A6A2 /* Pods_neotropicalRaptorsTests.framework */; };
+		2A987143213C6DE9416F92EC /* Pods_neotropicalRaptorsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC06196972EE05283E95DE6C /* Pods_neotropicalRaptorsUITests.framework */; };
+		3778F2C7C32105EA8C941FB2 /* Pods_neotropicalRaptors.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 771A66877FA751853AEAD21C /* Pods_neotropicalRaptors.framework */; };
 		FA39E8C71C6AB7640074B6BE /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA39E8C61C6AB7640074B6BE /* ScheduleViewController.swift */; };
 		FA39E8CA1C6AE4080074B6BE /* NavTabButtonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA39E8C91C6AE4080074B6BE /* NavTabButtonCell.xib */; };
 		FA39E8CD1C6AF8C80074B6BE /* NSLocaleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA39E8CC1C6AF8C80074B6BE /* NSLocaleExtension.swift */; };
@@ -96,14 +96,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		041030CC6BB05385C3A0CDDC /* Pods_neotropicalRaptorsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_neotropicalRaptorsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		22994272AE0D56E1A989414B /* Pods-neotropicalRaptorsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-neotropicalRaptorsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-neotropicalRaptorsTests/Pods-neotropicalRaptorsTests.debug.xcconfig"; sourceTree = "<group>"; };
-		248C35A5A4A689D4139A3F1E /* Pods_neotropicalRaptors.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_neotropicalRaptors.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5913F10B072610D81F3D6CE3 /* Pods-neotropicalRaptorsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-neotropicalRaptorsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-neotropicalRaptorsUITests/Pods-neotropicalRaptorsUITests.release.xcconfig"; sourceTree = "<group>"; };
-		7D35F5FD94E5A93111A937EC /* Pods-neotropicalRaptorsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-neotropicalRaptorsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-neotropicalRaptorsTests/Pods-neotropicalRaptorsTests.release.xcconfig"; sourceTree = "<group>"; };
-		7EAC20C070E15460FA09E4B4 /* Pods-neotropicalRaptors.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-neotropicalRaptors.release.xcconfig"; path = "Pods/Target Support Files/Pods-neotropicalRaptors/Pods-neotropicalRaptors.release.xcconfig"; sourceTree = "<group>"; };
-		8A1EF5F0C89CE33481CA4165 /* Pods-neotropicalRaptors.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-neotropicalRaptors.debug.xcconfig"; path = "Pods/Target Support Files/Pods-neotropicalRaptors/Pods-neotropicalRaptors.debug.xcconfig"; sourceTree = "<group>"; };
-		9948E732448679466257B27D /* Pods-neotropicalRaptorsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-neotropicalRaptorsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-neotropicalRaptorsUITests/Pods-neotropicalRaptorsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		01A2C71C2F8FC6B7B8FB3AB8 /* Pods-neotropicalRaptorsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-neotropicalRaptorsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-neotropicalRaptorsTests/Pods-neotropicalRaptorsTests.release.xcconfig"; sourceTree = "<group>"; };
+		1D42C1874DE2332B3BE24629 /* Pods-neotropicalRaptorsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-neotropicalRaptorsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-neotropicalRaptorsUITests/Pods-neotropicalRaptorsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		771A66877FA751853AEAD21C /* Pods_neotropicalRaptors.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_neotropicalRaptors.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		797D07A7AC423D0C7EA0A6A2 /* Pods_neotropicalRaptorsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_neotropicalRaptorsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B8FF67603E1666B56EE2C57 /* Pods-neotropicalRaptors.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-neotropicalRaptors.release.xcconfig"; path = "Pods/Target Support Files/Pods-neotropicalRaptors/Pods-neotropicalRaptors.release.xcconfig"; sourceTree = "<group>"; };
+		B62516789D8576CA9DFB508F /* Pods-neotropicalRaptorsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-neotropicalRaptorsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-neotropicalRaptorsTests/Pods-neotropicalRaptorsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CC06196972EE05283E95DE6C /* Pods_neotropicalRaptorsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_neotropicalRaptorsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E987DF1782C7AA16143BAE89 /* Pods-neotropicalRaptorsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-neotropicalRaptorsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-neotropicalRaptorsUITests/Pods-neotropicalRaptorsUITests.release.xcconfig"; sourceTree = "<group>"; };
 		FA39E8C61C6AB7640074B6BE /* ScheduleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleViewController.swift; sourceTree = "<group>"; };
 		FA39E8C91C6AE4080074B6BE /* NavTabButtonCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NavTabButtonCell.xib; sourceTree = "<group>"; };
 		FA39E8CC1C6AF8C80074B6BE /* NSLocaleExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSLocaleExtension.swift; sourceTree = "<group>"; };
@@ -151,7 +151,6 @@
 		FA65B58C1C6D8B0600DCAF0B /* OrganizerTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OrganizerTableViewCell.xib; sourceTree = "<group>"; };
 		FA65B5901C6DA53600DCAF0B /* AboutTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutTableViewController.swift; sourceTree = "<group>"; };
 		FA65B5941C7274EE00DCAF0B /* UIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
-		FA901580FCF550FB9D22D5AE /* Pods_neotropicalRaptorsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_neotropicalRaptorsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAFA15B81C69D31C00FEA4EA /* neotropicalRaptors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = neotropicalRaptors.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAFA15BB1C69D31C00FEA4EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAFA15C01C69D31C00FEA4EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -164,6 +163,7 @@
 		FAFA15D71C69D31C00FEA4EA /* neotropicalRaptors.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = neotropicalRaptors.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAFA15DB1C69D31C00FEA4EA /* trySwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trySwiftUITests.swift; sourceTree = "<group>"; };
 		FAFA15DD1C69D31C00FEA4EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBCEB38A2E80871A2D609650 /* Pods-neotropicalRaptors.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-neotropicalRaptors.debug.xcconfig"; path = "Pods/Target Support Files/Pods-neotropicalRaptors/Pods-neotropicalRaptors.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,7 +171,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				838AF19F12EBF18390BAEABB /* Pods_neotropicalRaptors.framework in Frameworks */,
+				3778F2C7C32105EA8C941FB2 /* Pods_neotropicalRaptors.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,7 +179,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C06433631C5065203CE087F7 /* Pods_neotropicalRaptorsTests.framework in Frameworks */,
+				23BEA45AC7FE9BA83F3F9043 /* Pods_neotropicalRaptorsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,34 +187,34 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D935BA727CE221B8A3C26DE /* Pods_neotropicalRaptorsUITests.framework in Frameworks */,
+				2A987143213C6DE9416F92EC /* Pods_neotropicalRaptorsUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		328E05CB7CDAEFFB5768F80E /* Pods */ = {
+		1E7D6047F9C499EE49A398AC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8A1EF5F0C89CE33481CA4165 /* Pods-neotropicalRaptors.debug.xcconfig */,
-				7EAC20C070E15460FA09E4B4 /* Pods-neotropicalRaptors.release.xcconfig */,
-				22994272AE0D56E1A989414B /* Pods-neotropicalRaptorsTests.debug.xcconfig */,
-				7D35F5FD94E5A93111A937EC /* Pods-neotropicalRaptorsTests.release.xcconfig */,
-				9948E732448679466257B27D /* Pods-neotropicalRaptorsUITests.debug.xcconfig */,
-				5913F10B072610D81F3D6CE3 /* Pods-neotropicalRaptorsUITests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		505E359926BAB4DBAB69D456 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				248C35A5A4A689D4139A3F1E /* Pods_neotropicalRaptors.framework */,
-				041030CC6BB05385C3A0CDDC /* Pods_neotropicalRaptorsTests.framework */,
-				FA901580FCF550FB9D22D5AE /* Pods_neotropicalRaptorsUITests.framework */,
+				771A66877FA751853AEAD21C /* Pods_neotropicalRaptors.framework */,
+				797D07A7AC423D0C7EA0A6A2 /* Pods_neotropicalRaptorsTests.framework */,
+				CC06196972EE05283E95DE6C /* Pods_neotropicalRaptorsUITests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CAF6B9A4CC7DF64C17D77394 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FBCEB38A2E80871A2D609650 /* Pods-neotropicalRaptors.debug.xcconfig */,
+				8B8FF67603E1666B56EE2C57 /* Pods-neotropicalRaptors.release.xcconfig */,
+				B62516789D8576CA9DFB508F /* Pods-neotropicalRaptorsTests.debug.xcconfig */,
+				01A2C71C2F8FC6B7B8FB3AB8 /* Pods-neotropicalRaptorsTests.release.xcconfig */,
+				1D42C1874DE2332B3BE24629 /* Pods-neotropicalRaptorsUITests.debug.xcconfig */,
+				E987DF1782C7AA16143BAE89 /* Pods-neotropicalRaptorsUITests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		FA39E8C51C6AB7310074B6BE /* ViewControllers */ = {
@@ -430,12 +430,12 @@
 		FAFA15AF1C69D31B00FEA4EA = {
 			isa = PBXGroup;
 			children = (
-				505E359926BAB4DBAB69D456 /* Frameworks */,
-				328E05CB7CDAEFFB5768F80E /* Pods */,
 				FAFA15B91C69D31C00FEA4EA /* Products */,
 				FAFA15BA1C69D31C00FEA4EA /* neotropicalRaptors */,
 				FAFA15CF1C69D31C00FEA4EA /* neotropicalRaptorsTests */,
 				FAFA15DA1C69D31C00FEA4EA /* neotropicalRaptorsUITests */,
+				CAF6B9A4CC7DF64C17D77394 /* Pods */,
+				1E7D6047F9C499EE49A398AC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -935,7 +935,7 @@
 		};
 		FAFA15E11C69D31C00FEA4EA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8A1EF5F0C89CE33481CA4165 /* Pods-neotropicalRaptors.debug.xcconfig */;
+			baseConfigurationReference = FBCEB38A2E80871A2D609650 /* Pods-neotropicalRaptors.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -955,7 +955,7 @@
 		};
 		FAFA15E21C69D31C00FEA4EA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7EAC20C070E15460FA09E4B4 /* Pods-neotropicalRaptors.release.xcconfig */;
+			baseConfigurationReference = 8B8FF67603E1666B56EE2C57 /* Pods-neotropicalRaptors.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -974,7 +974,7 @@
 		};
 		FAFA15E41C69D31C00FEA4EA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 22994272AE0D56E1A989414B /* Pods-neotropicalRaptorsTests.debug.xcconfig */;
+			baseConfigurationReference = B62516789D8576CA9DFB508F /* Pods-neotropicalRaptorsTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = neotropicalRaptorsTests/Info.plist;
@@ -987,7 +987,7 @@
 		};
 		FAFA15E51C69D31C00FEA4EA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7D35F5FD94E5A93111A937EC /* Pods-neotropicalRaptorsTests.release.xcconfig */;
+			baseConfigurationReference = 01A2C71C2F8FC6B7B8FB3AB8 /* Pods-neotropicalRaptorsTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = neotropicalRaptorsTests/Info.plist;
@@ -1000,7 +1000,7 @@
 		};
 		FAFA15E71C69D31C00FEA4EA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9948E732448679466257B27D /* Pods-neotropicalRaptorsUITests.debug.xcconfig */;
+			baseConfigurationReference = 1D42C1874DE2332B3BE24629 /* Pods-neotropicalRaptorsUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = neotropicalRaptorsUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -1013,7 +1013,7 @@
 		};
 		FAFA15E81C69D31C00FEA4EA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5913F10B072610D81F3D6CE3 /* Pods-neotropicalRaptorsUITests.release.xcconfig */;
+			baseConfigurationReference = E987DF1782C7AA16143BAE89 /* Pods-neotropicalRaptorsUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = neotropicalRaptorsUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
