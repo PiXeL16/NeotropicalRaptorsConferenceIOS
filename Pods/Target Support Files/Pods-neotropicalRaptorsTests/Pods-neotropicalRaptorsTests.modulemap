@@ -1,6 +1,0 @@
-framework module Pods_neotropicalRaptorsTests {
-  umbrella header "Pods-neotropicalRaptorsTests-umbrella.h"
-
-  export *
-  module * { export * }
-}
