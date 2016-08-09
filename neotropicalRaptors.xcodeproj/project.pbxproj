@@ -432,8 +432,8 @@
 			children = (
 				FAFA15B91C69D31C00FEA4EA /* Products */,
 				FAFA15BA1C69D31C00FEA4EA /* neotropicalRaptors */,
-				FAFA15CF1C69D31C00FEA4EA /* trySwiftTests */,
-				FAFA15DA1C69D31C00FEA4EA /* trySwiftUITests */,
+				FAFA15CF1C69D31C00FEA4EA /* neotropicalRaptorsTests */,
+				FAFA15DA1C69D31C00FEA4EA /* neotropicalRaptorsUITests */,
 				328E05CB7CDAEFFB5768F80E /* Pods */,
 				505E359926BAB4DBAB69D456 /* Frameworks */,
 			);
@@ -463,26 +463,25 @@
 				FAFA15C41C69D31C00FEA4EA /* LaunchScreen.storyboard */,
 				FAFA15BF1C69D31C00FEA4EA /* Main.storyboard */,
 			);
-			name = neotropicalRaptors;
-			path = trySwift;
+			path = neotropicalRaptors;
 			sourceTree = "<group>";
 		};
-		FAFA15CF1C69D31C00FEA4EA /* trySwiftTests */ = {
+		FAFA15CF1C69D31C00FEA4EA /* neotropicalRaptorsTests */ = {
 			isa = PBXGroup;
 			children = (
 				FAFA15D21C69D31C00FEA4EA /* Info.plist */,
 				FAFA15D01C69D31C00FEA4EA /* trySwiftTests.swift */,
 			);
-			path = trySwiftTests;
+			path = neotropicalRaptorsTests;
 			sourceTree = "<group>";
 		};
-		FAFA15DA1C69D31C00FEA4EA /* trySwiftUITests */ = {
+		FAFA15DA1C69D31C00FEA4EA /* neotropicalRaptorsUITests */ = {
 			isa = PBXGroup;
 			children = (
 				FAFA15DD1C69D31C00FEA4EA /* Info.plist */,
 				FAFA15DB1C69D31C00FEA4EA /* trySwiftUITests.swift */,
 			);
-			path = trySwiftUITests;
+			path = neotropicalRaptorsUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -943,7 +942,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = NO;
-				INFOPLIST_FILE = trySwift/Info.plist;
+				INFOPLIST_FILE = neotropicalRaptors/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.natashatherobot.trySwift;
@@ -963,7 +962,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = NO;
-				INFOPLIST_FILE = trySwift/Info.plist;
+				INFOPLIST_FILE = neotropicalRaptors/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.natashatherobot.trySwift;
@@ -978,7 +977,7 @@
 			baseConfigurationReference = 22994272AE0D56E1A989414B /* Pods-neotropicalRaptorsTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = trySwiftTests/Info.plist;
+				INFOPLIST_FILE = neotropicalRaptorsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.natashatherobot.trySwiftTests;
 				PRODUCT_NAME = neotropicalRaptors;
@@ -991,7 +990,7 @@
 			baseConfigurationReference = 7D35F5FD94E5A93111A937EC /* Pods-neotropicalRaptorsTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = trySwiftTests/Info.plist;
+				INFOPLIST_FILE = neotropicalRaptorsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.natashatherobot.trySwiftTests;
 				PRODUCT_NAME = neotropicalRaptors;
@@ -1003,7 +1002,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9948E732448679466257B27D /* Pods-neotropicalRaptorsUITests.debug.xcconfig */;
 			buildSettings = {
-				INFOPLIST_FILE = trySwiftUITests/Info.plist;
+				INFOPLIST_FILE = neotropicalRaptorsUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.natashatherobot.trySwiftUITests;
 				PRODUCT_NAME = neotropicalRaptors;
@@ -1016,7 +1015,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5913F10B072610D81F3D6CE3 /* Pods-neotropicalRaptorsUITests.release.xcconfig */;
 			buildSettings = {
-				INFOPLIST_FILE = trySwiftUITests/Info.plist;
+				INFOPLIST_FILE = neotropicalRaptorsUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.natashatherobot.trySwiftUITests;
 				PRODUCT_NAME = neotropicalRaptors;

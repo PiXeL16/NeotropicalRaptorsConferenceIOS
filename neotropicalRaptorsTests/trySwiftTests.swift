@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import trySwift
+@testable import neotropicalRaptors
 
 class trySwiftTests: XCTestCase {
     
