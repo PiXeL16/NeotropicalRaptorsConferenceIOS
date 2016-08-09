@@ -430,12 +430,12 @@
 		FAFA15AF1C69D31B00FEA4EA = {
 			isa = PBXGroup;
 			children = (
+				505E359926BAB4DBAB69D456 /* Frameworks */,
+				328E05CB7CDAEFFB5768F80E /* Pods */,
 				FAFA15B91C69D31C00FEA4EA /* Products */,
 				FAFA15BA1C69D31C00FEA4EA /* neotropicalRaptors */,
 				FAFA15CF1C69D31C00FEA4EA /* neotropicalRaptorsTests */,
 				FAFA15DA1C69D31C00FEA4EA /* neotropicalRaptorsUITests */,
-				328E05CB7CDAEFFB5768F80E /* Pods */,
-				505E359926BAB4DBAB69D456 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
