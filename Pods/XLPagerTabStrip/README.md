@@ -5,7 +5,7 @@
 <img src="https://img.shields.io/badge/platform-iOS-blue.svg?style=flat" alt="Platform iOS" />
 <a href="https://developer.apple.com/swift"><img src="https://img.shields.io/badge/swift2-compatible-4BC51D.svg?style=flat" alt="Swift 2 compatible" /></a>
 <a href="https://github.com/Carthage/Carthage"><img src="https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat" alt="Carthage compatible" /></a>
-<a href="https://cocoapods.org/pods/XLActionController"><img src="https://img.shields.io/badge/pod-4.0.0-blue.svg" alt="CocoaPods compatible" /></a>
+<a href="https://cocoapods.org/pods/XLActionController"><img src="https://img.shields.io/badge/pod-4.0.2-blue.svg" alt="CocoaPods compatible" /></a>
 <a href="https://raw.githubusercontent.com/xmartlabs/XLPagerTabStrip/master/LICENSE"><img src="http://img.shields.io/badge/license-MIT-blue.svg?style=flat" alt="License: MIT" />
 <a href="https://codebeat.co/projects/github-com-xmartlabs-xlpagertabstrip"><img alt="codebeat badge" src="https://codebeat.co/badges/f32c9ad3-0aa1-4b40-a632-9421211bd39e" /></a>
 </a>
@@ -90,7 +90,7 @@ class MyPagerTabStripName: ButtonBarPagerTabStripViewController {
 We strongly recommend to use IB to set up our page controller views.
 
 Drag into the storyboard a `UIViewController` and set up its class with your pager controller (`MyPagerTabStripName`).
-Drag a `UIScrollView` into your view controller view and connect `PagerTabStripViewController` `contentView` outlet with the scroll view.
+Drag a `UIScrollView` into your view controller view and connect `PagerTabStripViewController` `containerView` outlet with the scroll view.
 
 Depending on which type of paging view controller you are working with you may have to connect more outlets.
 
@@ -214,6 +214,16 @@ settings.style.buttonBarItemTitleColor: UIColor?
 settings.style.buttonBarItemsShouldFillAvailiableWidth = true
 // only used if button bar is created programmatically and not using storyboards or nib files as recommended.
 public var buttonBarHeight: CGFloat?
+```
+
+**Important:** Settings should be called before `viewDidLoad` is called.
+```swift
+override func viewDidLoad() {
+   self.settings.style.selectedBarHeight = 2
+   self.settings.style.selectedBarBackgroundColor = UIColor.whiteColor()
+
+   super.viewDidLoad()
+}
 ```
 
 #####  Update cells when selected indicator changes
