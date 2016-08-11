@@ -20,13 +20,13 @@ extension Organizer {
     static let organizers = [natasha, kk, caesar, tasanobu, helen, hector, vaish, minwoo]
 
     static let natasha = Organizer(
-        name: isJapanese ? "ナターシャ ザ ロボット" : "Natasha Murashev",
+        name: "Natasha Murashev",
         twitter: "NatashaTheRobot",
         image: Toucan(image: UIImage(named: "natasha")!).maskWithEllipse().image
     )
 
     static let kk = Organizer(
-        name: isJapanese ? "岸川克己" : "Kishikawa Katsumi",
+        name: "Kishikawa Katsumi",
         twitter: "k_katsumi",
         image: Toucan(image: UIImage(named: "kk")!).maskWithEllipse().image
     )
@@ -44,7 +44,7 @@ extension Organizer {
     )
 
     static let caesar = Organizer(
-        name: isJapanese ? "Caesar Wirth" : "Caesar Wirth",
+        name: "Caesar Wirth",
         twitter: "cjwirth",
         image: Toucan(image: UIImage(named: "caesar")!).maskWithEllipse().image
     )
@@ -62,7 +62,7 @@ extension Organizer {
     )
 
     static let tasanobu = Organizer(
-        name: isJapanese ? "田坂和暢" : "Kazunobu Tasaka",
+        name: "Kazunobu Tasaka",
         twitter: "tasanobu",
         image: Toucan(image: UIImage(named: "tasanobu")!).maskWithEllipse().image
     )

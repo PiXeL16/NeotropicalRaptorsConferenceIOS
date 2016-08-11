@@ -25,28 +25,28 @@ struct QASession {
 
 extension QASession {
     
-    static let SeminarRoom17F = isJapanese ? "17F セミナールーム" : "17F Seminar Room"
+    static let SeminarRoom17F = "17F Seminar Room"
     
     static let qaSessionsDay1 = [
         QASession(
             id: 511,
             startTime: NSDate.date(year: 2016, month: 3, day: 2, hour: 11, minute: 30, second: 0),
             endTime: NSDate.date(year: 2016, month: 3, day: 2, hour: 12, minute: 55, second: 0),
-            speakers: [Speaker.syoIkeda, Speaker.jpSimard, Speaker.yasuhiroInami],
+            speakers: [Speaker.timOliver, Speaker.timOliver, Speaker.timOliver],
             location: SeminarRoom17F
         ),
         QASession(
             id: 512,
             startTime: NSDate.date(year: 2016, month: 3, day: 2, hour: 14, minute: 30, second: 0),
             endTime: NSDate.date(year: 2016, month: 3, day: 2, hour: 15, minute: 55, second: 0),
-            speakers: [Speaker.lauraSavino, Speaker.borisBugling, Speaker.gwendolynWeston],
+            speakers: [Speaker.timOliver, Speaker.timOliver, Speaker.timOliver],
             location: SeminarRoom17F
         ),
         QASession(
             id: 513,
             startTime: NSDate.date(year: 2016, month: 3, day: 2, hour: 16, minute: 30, second: 0),
             endTime: NSDate.date(year: 2016, month: 3, day: 2, hour: 17, minute: 55, second: 0),
-            speakers: [Speaker.yutaKoshizawa, Speaker.micheleTitolo, Speaker.danielSteinberg],
+            speakers: [Speaker.timOliver, Speaker.timOliver, Speaker.timOliver],
             location: SeminarRoom17F
         )
     ]
@@ -56,28 +56,28 @@ extension QASession {
             id: 521,
             startTime: NSDate.date(year: 2016, month: 3, day: 3, hour: 10, minute: 0, second: 0),
             endTime: NSDate.date(year: 2016, month: 3, day: 3, hour: 10, minute: 55, second: 0),
-            speakers: [Speaker.timOliver, Speaker.stephanieShupe, Speaker.cateHuston],
+            speakers: [Speaker.timOliver, Speaker.timOliver, Speaker.timOliver],
             location: SeminarRoom17F
         ),
         QASession(
             id: 522,
             startTime: NSDate.date(year: 2016, month: 3, day: 3, hour: 11, minute: 30, second: 0),
             endTime: NSDate.date(year: 2016, month: 3, day: 3, hour: 12, minute: 55, second: 0),
-            speakers: [Speaker.ayakaNonaka, Speaker.adamBell, Speaker.jesseSquires],
+            speakers: [Speaker.timOliver, Speaker.timOliver, Speaker.jesseSquires],
             location: SeminarRoom17F
         ),
         QASession(
             id: 523,
             startTime: NSDate.date(year: 2016, month: 3, day: 3, hour: 14, minute: 30, second: 0),
             endTime: NSDate.date(year: 2016, month: 3, day: 3, hour: 15, minute: 55, second: 0),
-            speakers: [Speaker.matthewGillingham, Speaker.himiSato, Speaker.rachelBobbins],
+            speakers: [Speaker.timOliver, Speaker.timOliver, Speaker.timOliver],
             location: SeminarRoom17F
         ),
         QASession(
             id: 524,
             startTime: NSDate.date(year: 2016, month: 3, day: 3, hour: 16, minute: 30, second: 0),
             endTime: NSDate.date(year: 2016, month: 3, day: 3, hour: 17, minute: 55, second: 0),
-            speakers: [Speaker.danielEggert, Speaker.novallKhan, Speaker.jeffHui],
+            speakers: [Speaker.timOliver, Speaker.timOliver, Speaker.timOliver],
             location: SeminarRoom17F
         )
     ]
@@ -87,28 +87,28 @@ extension QASession {
             id: 531,
             startTime: NSDate.date(year: 2016, month: 3, day: 4, hour: 10, minute: 0, second: 0),
             endTime: NSDate.date(year: 2016, month: 3, day: 4, hour: 10, minute: 55, second: 0),
-            speakers: [Speaker.yosukeIshikawa, Speaker.maximCramer, Speaker.chrisEidhof],
+            speakers: [Speaker.timOliver, Speaker.timOliver, Speaker.timOliver],
             location: SeminarRoom17F
         ),
         QASession(
             id: 532,
             startTime: NSDate.date(year: 2016, month: 3, day: 4, hour: 11, minute: 30, second: 0),
             endTime: NSDate.date(year: 2016, month: 3, day: 4, hour: 12, minute: 55, second: 0),
-            speakers: [Speaker.hirokiKato, Speaker.caesarWirth, Speaker.ashFurrow],
+            speakers: [Speaker.timOliver, Speaker.timOliver, Speaker.timOliver],
             location: SeminarRoom17F
         ),
         QASession(
             id: 533,
             startTime: NSDate.date(year: 2016, month: 3, day: 4, hour: 14, minute: 30, second: 0),
             endTime: NSDate.date(year: 2016, month: 3, day: 4, hour: 15, minute: 55, second: 0),
-            speakers: [Speaker.veronicaRay, Speaker.hectorMatos, Speaker.simonGladman],
+            speakers: [Speaker.timOliver, Speaker.timOliver, Speaker.timOliver],
             location: SeminarRoom17F
         ),
         QASession(
             id: 534,
             startTime: NSDate.date(year: 2016, month: 3, day: 4, hour: 16, minute: 30, second: 0),
             endTime: NSDate.date(year: 2016, month: 3, day: 4, hour: 17, minute: 55, second: 0),
-            speakers: [Speaker.dianaZmuda, Speaker.danielHaight, Speaker.helenHolmes],
+            speakers: [Speaker.timOliver, Speaker.timOliver, Speaker.timOliver],
             location: SeminarRoom17F
         )
     ]

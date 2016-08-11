@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Xe8-8h-xaI">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Xe8-8h-xaI">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
         <!--Tab Bar Controller-->
@@ -45,7 +45,7 @@
         <!--Schedule View Controller-->
         <scene sceneID="WnE-2Y-bTl">
             <objects>
-                <viewController id="ZbV-jw-mHT" customClass="ScheduleViewController" customModule="trySwift" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="ZbV-jw-mHT" customClass="ScheduleViewController" customModule="neotropicalRaptors" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="bcc-5u-M0d"/>
                         <viewControllerLayoutGuide type="bottom" id="yee-Gn-CeI"/>
@@ -80,7 +80,7 @@
         <!--Session Details View Controller-->
         <scene sceneID="gqx-3r-fjx">
             <objects>
-                <tableViewController storyboardIdentifier="SessionDetailsViewController" id="YhW-46-7Om" customClass="SessionDetailsViewController" customModule="trySwift" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="SessionDetailsViewController" id="YhW-46-7Om" customClass="SessionDetailsViewController" customModule="neotropicalRaptors" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" showsSelectionImmediatelyOnTouchBegin="NO" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="qZt-eO-bKm">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -98,7 +98,7 @@
         <!--Speakers-->
         <scene sceneID="2oi-0W-qWe">
             <objects>
-                <tableViewController id="Ccr-fK-qqe" customClass="SpeakersViewController" customModule="trySwift" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="Ccr-fK-qqe" customClass="SpeakersViewController" customModule="neotropicalRaptors" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="96" sectionHeaderHeight="28" sectionFooterHeight="28" id="UDD-k2-fZq">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -120,7 +120,7 @@
         <!--Speaker Detail View Controller-->
         <scene sceneID="cT2-kN-3XL">
             <objects>
-                <tableViewController storyboardIdentifier="SpeakerDetailViewController" id="gZZ-TI-i9R" customClass="SpeakerDetailViewController" customModule="trySwift" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="SpeakerDetailViewController" id="gZZ-TI-i9R" customClass="SpeakerDetailViewController" customModule="neotropicalRaptors" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="FQc-pa-q04">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -140,7 +140,7 @@
         <!--Sponsors-->
         <scene sceneID="J5H-sm-sb8">
             <objects>
-                <tableViewController id="acP-CT-yp9" customClass="SponsorsViewController" customModule="trySwift" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="acP-CT-yp9" customClass="SponsorsViewController" customModule="neotropicalRaptors" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" id="GeR-GO-uTC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -159,7 +159,7 @@
         <!--More-->
         <scene sceneID="VxK-C8-k6U">
             <objects>
-                <tableViewController id="kZF-fI-031" customClass="MoreTableViewController" customModule="trySwift" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="kZF-fI-031" customClass="MoreTableViewController" customModule="neotropicalRaptors" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" id="V9u-fe-gyP">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -265,7 +265,7 @@
         <!--Q&A Sessions View Controller-->
         <scene sceneID="91W-FK-vvq">
             <objects>
-                <viewController id="JNG-MG-GVZ" userLabel="Q&amp;A Sessions View Controller" customClass="QASessionsViewController" customModule="trySwift" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="JNG-MG-GVZ" userLabel="Q&amp;A Sessions View Controller" customClass="QASessionsViewController" customModule="neotropicalRaptors" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="eON-q3-RA2"/>
                         <viewControllerLayoutGuide type="bottom" id="cp8-0P-D8j"/>

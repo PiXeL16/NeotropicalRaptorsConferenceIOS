@@ -19,10 +19,10 @@ class SessionTableViewCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
 
-        sessionTitleLabel.textColor = .trySwiftTitleColor()
-        sessionTypeLabel.textColor = .trySwiftTitleColor()
-        speakerNameLabel.textColor = .trySwiftSubtitleColor()
-        sessionLocationLabel.textColor = .trySwiftSubtitleColor()
+        sessionTitleLabel.textColor = .titleColor()
+        sessionTypeLabel.textColor = .titleColor()
+        speakerNameLabel.textColor = .subtitleColor()
+        sessionLocationLabel.textColor = .subtitleColor()
         sessionTitleLabel.clipsToBounds = false
     }
 

@@ -20,8 +20,8 @@ class QASessionTableViewCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         
-        qaSessionTitleLabel.textColor = .trySwiftTitleColor()
-        locationLabel.textColor = .trySwiftSubtitleColor()
+        qaSessionTitleLabel.textColor = .titleColor()
+        locationLabel.textColor = .subtitleColor()
     }
 
     func configure(withQASession qaSession: QASession) {

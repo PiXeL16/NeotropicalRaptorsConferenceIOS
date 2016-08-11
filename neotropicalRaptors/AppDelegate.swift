@@ -18,7 +18,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
         configureStyling()
 
-        NSTimeZone.setDefaultTimeZone(NSTimeZone(abbreviation: "JST")!)
         return true
     }
 
@@ -49,7 +48,7 @@ private extension AppDelegate {
 
     func configureStyling() {
 
-        let tintColor = UIColor(red: 184.0/255.0, green: 50.0/255.0, blue: 43.0/255.0, alpha: 1.0)
+        let tintColor = UIColor.mainColor()
 
         window?.tintColor = tintColor
 

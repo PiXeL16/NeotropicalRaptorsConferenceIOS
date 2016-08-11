@@ -22,7 +22,7 @@ class QASessionsViewController: ButtonBarPagerTabStripViewController {
         
         buttonBarView.registerNib(UINib(nibName: "NavTabButtonCell", bundle: nil), forCellWithReuseIdentifier: "Cell")
         buttonBarView.backgroundColor = UIColor.whiteColor()
-        buttonBarView.selectedBar.backgroundColor = UIColor.trySwiftAccentColor()
+        buttonBarView.selectedBar.backgroundColor = UIColor.accentColor()
         
         moveToCorrectDate()
     }

@@ -14,7 +14,7 @@ class ScheduleViewController: ButtonBarPagerTabStripViewController {
     override func awakeFromNib() {
         super.awakeFromNib()
         
-        title = isJapanese ? "スケジュール" : "Schedule"
+        title = "Schedule"
     }
     
     override func viewDidLoad() {
@@ -23,7 +23,7 @@ class ScheduleViewController: ButtonBarPagerTabStripViewController {
         buttonBarView.registerNib(UINib(nibName: "NavTabButtonCell", bundle: nil), forCellWithReuseIdentifier: "Cell")
         buttonBarView.backgroundColor = .whiteColor()
         settings.style.selectedBarBackgroundColor = .whiteColor()
-        buttonBarView.selectedBar.backgroundColor = UIColor.trySwiftAccentColor()
+        buttonBarView.selectedBar.backgroundColor = UIColor.accentColor()
         
         moveToCorrectDate()
     }
