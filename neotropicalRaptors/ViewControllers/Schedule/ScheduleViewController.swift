@@ -39,7 +39,10 @@ class ScheduleViewController: ButtonBarPagerTabStripViewController {
         let sessionDay3ViewController = SessionsTableViewController()
         sessionDay3ViewController.dataSource = SessionDataSourceDay3()
         
-        return [sessionDay1ViewController, sessionDay2ViewController, sessionDay3ViewController]
+        let sessionDay4ViewController = SessionsTableViewController()
+        sessionDay4ViewController.dataSource = SessionDataSourceDay4()
+        
+        return [sessionDay1ViewController, sessionDay2ViewController, sessionDay3ViewController, sessionDay4ViewController]
     }
 }
 

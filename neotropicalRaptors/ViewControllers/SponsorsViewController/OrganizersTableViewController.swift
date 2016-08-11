@@ -8,12 +8,12 @@
 
 import UIKit
 
-class SponsorsViewController: UITableViewController {
+class OrganizersTableViewController: UITableViewController {
 
     override func awakeFromNib() {
         super.awakeFromNib()
         
-        title = "Sponsors"
+        title = "Organizers"
     }
     
     override func viewDidLoad() {
@@ -77,7 +77,7 @@ class SponsorsViewController: UITableViewController {
 
 }
 
-private extension SponsorsViewController {
+private extension OrganizersTableViewController {
     
     func sponsorAtIndexPath(indexPath: NSIndexPath) -> Sponsor {
 

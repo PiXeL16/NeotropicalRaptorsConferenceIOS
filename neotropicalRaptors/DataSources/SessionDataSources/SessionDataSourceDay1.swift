@@ -7,6 +7,6 @@
 //
 
 struct SessionDataSourceDay1: SessionDataSourceProtocol {
-    var header = "Wed, Mar 2"
+    var header = "Mon, Oct 10"
     var sessions = Session.sessionsDay1
 }

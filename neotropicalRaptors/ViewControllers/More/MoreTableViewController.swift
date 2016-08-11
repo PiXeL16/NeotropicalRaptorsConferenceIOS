@@ -21,7 +21,7 @@ class MoreTableViewController: UITableViewController {
     }
     
     private enum AcknowledgementsRow: Int {
-        case Organizers, Libraries
+        case Sponsors, Libraries
     }
     
     override func awakeFromNib() {
@@ -72,8 +72,8 @@ class MoreTableViewController: UITableViewController {
             }
         case .Acknowledgements:
             switch AcknowledgementsRow(rawValue: indexPath.row)! {
-            case .Organizers:
-                cell.textLabel?.text = "Organizers"
+            case .Sponsors:
+                cell.textLabel?.text = "Sponsors"
             case .Libraries:
                 cell.textLabel?.text = "Acknowledgements"
             }
@@ -95,8 +95,8 @@ class MoreTableViewController: UITableViewController {
             }
         case .Acknowledgements:
             switch AcknowledgementsRow(rawValue: indexPath.row)! {
-            case .Organizers:
-                showOrganizers()
+            case .Sponsors:
+                showSponsors()
             case .Libraries:
                 showLibraries()
             }
@@ -127,9 +127,9 @@ private extension MoreTableViewController {
         navigationController?.pushViewController(webViewController, animated: true)
     }
     
-    func showOrganizers() {
-        let organizersViewController = OrganizersTableViewController()
-        navigationController?.pushViewController(organizersViewController, animated: true)
+    func showSponsors() {
+//        let organizersViewController = OrganizersTableViewController()
+//        navigationController?.pushViewController(organizersViewController, animated: true)
     }
     
     func showLibraries() {

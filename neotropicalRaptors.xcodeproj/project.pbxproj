@@ -10,6 +10,7 @@
 		28BD93A353EDC469CA94541F /* Pods_neotropicalRaptors.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA51675815133274AB80545B /* Pods_neotropicalRaptors.framework */; };
 		3523224937FB31B8B14FE43C /* Pods_neotropicalRaptorsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B17B214C4CCD947E61600414 /* Pods_neotropicalRaptorsUITests.framework */; };
 		7CCE285CC0B50FA28C114B78 /* Pods_neotropicalRaptorsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B2935DC6B4A8249C537144F /* Pods_neotropicalRaptorsTests.framework */; };
+		838B211C1D5C2D35003D829F /* SessionDataSourceDay4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838B211B1D5C2D35003D829F /* SessionDataSourceDay4.swift */; };
 		FA39E8C71C6AB7640074B6BE /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA39E8C61C6AB7640074B6BE /* ScheduleViewController.swift */; };
 		FA39E8CA1C6AE4080074B6BE /* NavTabButtonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA39E8C91C6AE4080074B6BE /* NavTabButtonCell.xib */; };
 		FA39E8D21C6AFCCA0074B6BE /* SessionsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA39E8D11C6AFCCA0074B6BE /* SessionsTableViewController.swift */; };
@@ -36,7 +37,7 @@
 		FA39E9081C6C43760074B6BE /* SpeakersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA39E9071C6C43760074B6BE /* SpeakersViewController.swift */; };
 		FA39E90B1C6C45FD0074B6BE /* SpeakerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA39E9091C6C45FD0074B6BE /* SpeakerTableViewCell.swift */; };
 		FA39E90C1C6C45FD0074B6BE /* SpeakerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA39E90A1C6C45FD0074B6BE /* SpeakerTableViewCell.xib */; };
-		FA39E90F1C6C81870074B6BE /* SponsorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA39E90E1C6C81870074B6BE /* SponsorsViewController.swift */; };
+		FA39E90F1C6C81870074B6BE /* OrganizersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA39E90E1C6C81870074B6BE /* OrganizersTableViewController.swift */; };
 		FA39E9161C6C83A40074B6BE /* SponsorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA39E9141C6C83A40074B6BE /* SponsorTableViewCell.swift */; };
 		FA39E9171C6C83A40074B6BE /* SponsorTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA39E9151C6C83A40074B6BE /* SponsorTableViewCell.xib */; };
 		FA39E91D1C6C8D100074B6BE /* WebDisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA39E91B1C6C8D100074B6BE /* WebDisplayViewController.swift */; };
@@ -51,7 +52,6 @@
 		FA65B57C1C6D5C4600DCAF0B /* SessionDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA65B57B1C6D5C4600DCAF0B /* SessionDetailsViewController.swift */; };
 		FA65B5801C6D7B1900DCAF0B /* MoreTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA65B57F1C6D7B1900DCAF0B /* MoreTableViewController.swift */; };
 		FA65B5881C6D844400DCAF0B /* Organizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA65B5871C6D844400DCAF0B /* Organizer.swift */; };
-		FA65B58A1C6D8A5200DCAF0B /* OrganizersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA65B5891C6D8A5200DCAF0B /* OrganizersTableViewController.swift */; };
 		FA65B58D1C6D8B0600DCAF0B /* OrganizerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA65B58B1C6D8B0600DCAF0B /* OrganizerTableViewCell.swift */; };
 		FA65B58E1C6D8B0600DCAF0B /* OrganizerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA65B58C1C6D8B0600DCAF0B /* OrganizerTableViewCell.xib */; };
 		FA65B5911C6DA53600DCAF0B /* AboutTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA65B5901C6DA53600DCAF0B /* AboutTableViewController.swift */; };
@@ -97,6 +97,7 @@
 /* Begin PBXFileReference section */
 		07AB83714F56869C61D6986D /* Pods-neotropicalRaptorsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-neotropicalRaptorsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-neotropicalRaptorsTests/Pods-neotropicalRaptorsTests.release.xcconfig"; sourceTree = "<group>"; };
 		75B69D79A63C5F429AEB5DF6 /* Pods-neotropicalRaptorsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-neotropicalRaptorsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-neotropicalRaptorsUITests/Pods-neotropicalRaptorsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		838B211B1D5C2D35003D829F /* SessionDataSourceDay4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionDataSourceDay4.swift; sourceTree = "<group>"; };
 		83AF9088910CD98FFBECC94E /* Pods-neotropicalRaptorsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-neotropicalRaptorsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-neotropicalRaptorsUITests/Pods-neotropicalRaptorsUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		8B2935DC6B4A8249C537144F /* Pods_neotropicalRaptorsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_neotropicalRaptorsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		94F3F3893BC4188A70BF04DF /* Pods-neotropicalRaptors.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-neotropicalRaptors.debug.xcconfig"; path = "Pods/Target Support Files/Pods-neotropicalRaptors/Pods-neotropicalRaptors.debug.xcconfig"; sourceTree = "<group>"; };
@@ -130,7 +131,7 @@
 		FA39E9071C6C43760074B6BE /* SpeakersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeakersViewController.swift; sourceTree = "<group>"; };
 		FA39E9091C6C45FD0074B6BE /* SpeakerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeakerTableViewCell.swift; sourceTree = "<group>"; };
 		FA39E90A1C6C45FD0074B6BE /* SpeakerTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SpeakerTableViewCell.xib; sourceTree = "<group>"; };
-		FA39E90E1C6C81870074B6BE /* SponsorsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SponsorsViewController.swift; sourceTree = "<group>"; };
+		FA39E90E1C6C81870074B6BE /* OrganizersTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrganizersTableViewController.swift; sourceTree = "<group>"; };
 		FA39E9141C6C83A40074B6BE /* SponsorTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SponsorTableViewCell.swift; sourceTree = "<group>"; };
 		FA39E9151C6C83A40074B6BE /* SponsorTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SponsorTableViewCell.xib; sourceTree = "<group>"; };
 		FA39E91B1C6C8D100074B6BE /* WebDisplayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebDisplayViewController.swift; sourceTree = "<group>"; };
@@ -145,7 +146,6 @@
 		FA65B57B1C6D5C4600DCAF0B /* SessionDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionDetailsViewController.swift; sourceTree = "<group>"; };
 		FA65B57F1C6D7B1900DCAF0B /* MoreTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreTableViewController.swift; sourceTree = "<group>"; };
 		FA65B5871C6D844400DCAF0B /* Organizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Organizer.swift; sourceTree = "<group>"; };
-		FA65B5891C6D8A5200DCAF0B /* OrganizersTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrganizersTableViewController.swift; sourceTree = "<group>"; };
 		FA65B58B1C6D8B0600DCAF0B /* OrganizerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrganizerTableViewCell.swift; sourceTree = "<group>"; };
 		FA65B58C1C6D8B0600DCAF0B /* OrganizerTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OrganizerTableViewCell.xib; sourceTree = "<group>"; };
 		FA65B5901C6DA53600DCAF0B /* AboutTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutTableViewController.swift; sourceTree = "<group>"; };
@@ -223,7 +223,7 @@
 				FA39E8FB1C6C26150074B6BE /* Schedule */,
 				FA65B57E1C6D7B0900DCAF0B /* Shared */,
 				FA39E9061C6C43480074B6BE /* Speakers */,
-				FA39E9111C6C81940074B6BE /* SponsorsViewController */,
+				FA39E9111C6C81940074B6BE /* OrganizersViewController */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -290,6 +290,7 @@
 				FA39E8E01C6B31150074B6BE /* SessionDataSourceDay1.swift */,
 				FA39E8E21C6B31220074B6BE /* SessionDataSourceDay2.swift */,
 				FA39E8E41C6B31300074B6BE /* SessionDataSourceDay3.swift */,
+				838B211B1D5C2D35003D829F /* SessionDataSourceDay4.swift */,
 				FA39E8D31C6AFE180074B6BE /* SessionDataSourceProtocol.swift */,
 			);
 			path = SessionDataSources;
@@ -352,11 +353,12 @@
 			path = SpeakerTableViewCell;
 			sourceTree = "<group>";
 		};
-		FA39E9111C6C81940074B6BE /* SponsorsViewController */ = {
+		FA39E9111C6C81940074B6BE /* OrganizersViewController */ = {
 			isa = PBXGroup;
 			children = (
-				FA39E90E1C6C81870074B6BE /* SponsorsViewController.swift */,
+				FA39E90E1C6C81870074B6BE /* OrganizersTableViewController.swift */,
 			);
+			name = OrganizersViewController;
 			path = SponsorsViewController;
 			sourceTree = "<group>";
 		};
@@ -401,7 +403,6 @@
 			children = (
 				FA65B5901C6DA53600DCAF0B /* AboutTableViewController.swift */,
 				FA65B57F1C6D7B1900DCAF0B /* MoreTableViewController.swift */,
-				FA65B5891C6D8A5200DCAF0B /* OrganizersTableViewController.swift */,
 			);
 			path = More;
 			sourceTree = "<group>";
@@ -755,7 +756,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA39E90F1C6C81870074B6BE /* SponsorsViewController.swift in Sources */,
+				FA39E90F1C6C81870074B6BE /* OrganizersTableViewController.swift in Sources */,
 				FA39E8D71C6B05980074B6BE /* Session.swift in Sources */,
 				FA39E8F61C6C244A0074B6BE /* QASessionDataSourceDay1.swift in Sources */,
 				FA39E9031C6C33870074B6BE /* QASessionTableViewCell.swift in Sources */,
@@ -767,9 +768,9 @@
 				FA39E8F11C6C13D70074B6BE /* QASession.swift in Sources */,
 				FA39E8FE1C6C32510074B6BE /* QASessionsViewController.swift in Sources */,
 				FA39E8E81C6B32F80074B6BE /* SessionTableViewCell.swift in Sources */,
-				FA65B58A1C6D8A5200DCAF0B /* OrganizersTableViewController.swift in Sources */,
 				FA39E91D1C6C8D100074B6BE /* WebDisplayViewController.swift in Sources */,
 				FA39E8E51C6B31300074B6BE /* SessionDataSourceDay3.swift in Sources */,
+				838B211C1D5C2D35003D829F /* SessionDataSourceDay4.swift in Sources */,
 				FAFA15BC1C69D31C00FEA4EA /* AppDelegate.swift in Sources */,
 				FA39E8DD1C6B09DF0074B6BE /* Sponsor.swift in Sources */,
 				FA39E8F81C6C245B0074B6BE /* QASessionDataSourceDay2.swift in Sources */,
