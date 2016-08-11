@@ -37,21 +37,21 @@ class SessionTableViewCell: UITableViewCell {
         } else {
             // coffee / tea / opening announcements
             sessionTitleLabel.text = session.description
-            speakerImageView.image = UIImage.trySwiftDefaultImage
-            speakerNameLabel.text = "try! Conference"
-            if #available(iOS 9.2, *) {
-                sessionTypeLabel.text = "🤗"
-            } else {
-                sessionTypeLabel.text = "🐥"
-            }
+            speakerImageView.image = UIImage.conferenceDefaultImage
+            speakerNameLabel.text = "Neotropical Raptor Conference"
+//            if #available(iOS 9.2, *) {
+//                sessionTypeLabel.text = "🤗"
+//            } else {
+                sessionTypeLabel.text = ""
+//            }
 
-            if session.id == 319 {  // TOMBOY106
-                accessoryType = .DisclosureIndicator
-                selectionStyle = .Default
-            } else {
+//            if session.id == 319 {  // TOMBOY106
+//                accessoryType = .DisclosureIndicator
+//                selectionStyle = .Default
+//            } else {
                 accessoryType = .None
                 selectionStyle = .None
-            }
+//            }
         }
         
         sessionLocationLabel.text = session.location

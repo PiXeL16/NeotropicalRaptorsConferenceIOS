@@ -11,5 +11,5 @@ import Toucan
 
 extension UIImage {
     
-    @nonobjc static let trySwiftDefaultImage = Toucan(image: UIImage(named: "tryLogo")!).maskWithEllipse().image
+    @nonobjc static let conferenceDefaultImage = Toucan(image: UIImage(named: "conferenceLogo")!).maskWithEllipse().image
 }
