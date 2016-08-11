@@ -23,6 +23,7 @@ class ScheduleViewController: ButtonBarPagerTabStripViewController {
         buttonBarView.registerNib(UINib(nibName: "NavTabButtonCell", bundle: nil), forCellWithReuseIdentifier: "Cell")
         buttonBarView.backgroundColor = .whiteColor()
         settings.style.selectedBarBackgroundColor = .whiteColor()
+        settings.style.buttonBarItemFont = UIFont.systemFontOfSize(15)
         buttonBarView.selectedBar.backgroundColor = UIColor.accentColor()
         
         moveToCorrectDate()
@@ -51,14 +52,19 @@ private extension ScheduleViewController {
     func moveToCorrectDate() {
         let today = NSDate.today()
         
-        let day2 = NSDate.date(year: 2016, month: 3, day: 3)
+        let day2 = NSDate.date(year: 2016, month: 10, day: 11)
         if today == day2 {
             moveToViewControllerAtIndex(1)
         }
         
-        let day3 = NSDate.date(year: 2016, month: 3, day: 4)
+        let day3 = NSDate.date(year: 2016, month: 10, day: 12)
         if today == day3 {
           moveToViewControllerAtIndex(2)   
+        }
+        
+        let day4 = NSDate.date(year: 2016, month: 10, day: 13)
+        if today == day4 {
+            moveToViewControllerAtIndex(3)
         }
     }
 }

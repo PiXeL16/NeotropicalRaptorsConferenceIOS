@@ -50,7 +50,7 @@ private extension AppDelegate {
 
         let tintColor = UIColor.mainColor()
 
-        window?.tintColor = tintColor
+        window?.tintColor = UIColor.accentColor()
 
         UINavigationBar.appearance().titleTextAttributes = [
             NSForegroundColorAttributeName : UIColor.whiteColor(),
