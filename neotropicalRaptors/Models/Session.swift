@@ -33,7 +33,6 @@ extension Session {
     static let Breakfast = "☕️ & Breakfast"
     static let Lunch =  "🍱 Lunch"
     static let Coffee = "☕️ & 🍩 Break"
-    static let TOMBOY106 = "TOMBOY INDIAN LOUNGE DINING" // http://www.tomboy106.com/shibuya106/index.html
     
     static let sessionsDay1 = [
         Session(id: 101,
@@ -347,12 +346,6 @@ extension Session {
             endTime: NSDate.date(year: 2016, month: 3, day: 4, hour: 18, minute: 25, second: 0),
             description: "Closing Announcements",
             location: SeminarRoom13F,
-            speaker: nil),
-        Session(id: 319,
-            startTime: NSDate.date(year: 2016, month: 3, day: 4, hour: 18, minute: 30, second: 0),
-            endTime: NSDate.date(year: 2016, month: 3, day: 4, hour: 23, minute: 59, second: 0),
-            description: "🎉🎉🎉",
-            location: TOMBOY106,
             speaker: nil)
     ]
     
@@ -458,14 +451,7 @@ extension Session {
             endTime: NSDate.date(year: 2016, month: 3, day: 4, hour: 18, minute: 25, second: 0),
             description: "Closing Announcements",
             location: SeminarRoom13F,
-            speaker: nil),
-        Session(id: 319,
-            startTime: NSDate.date(year: 2016, month: 3, day: 4, hour: 18, minute: 30, second: 0),
-            endTime: NSDate.date(year: 2016, month: 3, day: 4, hour: 23, minute: 59, second: 0),
-            description: "🎉🎉🎉",
-            location: TOMBOY106,
-            speaker: nil)
-    ]
+            speaker: nil)]
 
 }
 

@@ -22,8 +22,8 @@ extension Speaker {
     static let speakers = [ashFurrow, caesarWirth, jesseSquires, syoIkeda, veronicaRay, chrisEidhof, timOliver].sort { $0.name < $1.name }
     
     static let ashFurrow = Speaker(
-        name: "Ash Furrow",
-        twitter: "ashfurrow",
+        name: "Person 1",
+        twitter: "person",
         image: Toucan(image: UIImage(named: "ashfurrow")!).maskWithEllipse().image,
         bio: "Ash Furrow is a Canadian iOS developer and author, currently working at Artsy. He has published four books, built many apps, and is a contributor to the open source community. On his blog, he writes about a range of topics, from interesting programming to explorations of analogue film photography.",
         presentation: Presentation(
@@ -32,8 +32,8 @@ extension Speaker {
     )
     
     static let caesarWirth = Speaker(
-        name: "Caesar Wirth",
-        twitter: "cjwirth",
+        name: "Person 2",
+        twitter: "person",
         image: Toucan(image: UIImage(named: "caesar")!).maskWithEllipse().image,
         bio: "Caesar Wirth is software engineer at CyberAgent, Inc. where he's made a number of iOS apps involving e-commerce, social networks, and streaming video. Just like Swift is cross-platform, he's also written Android apps and backend servers. When not writing code, you can often find him hiking, bouldering, or scouting out delicious Taco Rice around Tokyo.",
         presentation: Presentation(
@@ -42,8 +42,8 @@ extension Speaker {
     )
     
     static let jesseSquires = Speaker(
-        name: "Jesse Squires",
-        twitter: "jesse_squires",
+        name: "Person 3",
+        twitter: "person",
         image: Toucan(image: UIImage(named: "squires")!).maskWithEllipse().image,
         bio: "Jesse is a software developer who works on iOS at Instagram. He writes about Swift and Objective-C on his blog at jessesquires.com, and contributes to many open-source projects on GitHub. He loves running and learning new things, and is fueled primarily by black coffee and black metal.",
         presentation: Presentation(
@@ -52,18 +52,18 @@ extension Speaker {
     )
     
     static let syoIkeda = Speaker(
-        name: "Syo Ikeda",
-        twitter: "ikesyo",
+        name: "Pablo Camacho",
+        twitter: "pablo",
         image: Toucan(image: UIImage(named: "syo")!).maskWithEllipse().image,
-        bio: "Syo Ikeda (a.k.a @ikesyo) is an iOS developer lives in Kyoto, working at Hatena. He is the author of Himotoki, a type-safe JSON decoding library made of Swift, and also is contributing to several open source projects such as ReactiveCocoa and Carthage.",
+        bio: "Lorem ipsum dolor sit amet, ea alia melius efficiantur mel. Nostrum expetenda gubergren ei usu. Nihil audiam sit cu, ius diam regione ei. Eos putent aeterno interesset ex, oratio ignota legendos no per.",
         presentation: Presentation(
-            title: "Dive into Swift Ecosystem",
-            summary: "Swift became a very popular programming language in this two years and is now open sourced. Its ecosystem should be growing day by day and there are already some services those support Swift or many developer tools themselves are written in Swift. I will introduce the services and tools, and encourage you to use, participate in or contribute to them. It's a great chance to do so! :-)")
+            title: "Test Presentation",
+            summary: "Lorem ipsum dolor sit amet, ea alia melius efficiantur mel. Nostrum expetenda gubergren ei usu. Nihil audiam sit cu, ius diam regione ei. Eos putent aeterno interesset ex, oratio ignota legendos no per.")
     )
     
     static let veronicaRay = Speaker(
-        name: "Veronica Ray",
-        twitter: "nerdonica",
+        name: "Person 4",
+        twitter: "person",
         image: Toucan(image: UIImage(named: "veronica")!).maskWithEllipse().image,
         bio: "Veronica Ray is a software engineer at LinkedIn on the Video team. Once she rode her bike between two moose. She blogs on Medium and is on Twitter as  @nerdonica.",
         presentation: Presentation(
@@ -72,8 +72,8 @@ extension Speaker {
     )
     
     static let chrisEidhof = Speaker(
-        name: "Chris Eidhof",
-        twitter: "chriseidhof",
+        name: "Person 5",
+        twitter: "person",
         image: Toucan(image: UIImage(named: "chris")!).maskWithEllipse().image,
         bio: "Chris is a Dutch software developer living in Berlin (Germany). He spends most of his time building iOS and Mac apps, such as Deckset and Scenery. He started UIKonf, objc.io, wrote a book about Functional Programming in Swift and is currently writing a book on Advanced Swift.",
         presentation: Presentation(
@@ -81,8 +81,8 @@ extension Speaker {
             summary: "In this talk, we'll look at how we can work with table view controllers in a more Swifty way. We'll use generics, structs and functions to create a reusable subclass of UITableViewController."))
 
     static let timOliver = Speaker(
-        name: "Tim Oliver",
-        twitter: "TimOliverAU",
+        name: "Person 6",
+        twitter: "person",
         image: Toucan(image: UIImage(named: "timoliver")!).maskWithEllipse().image,
         bio: "Tim Oliver hails from Perth, Australia! He has been an iOS developer for 6 years, and recently joined Realm in March 2015. Tim has a cool app called iComics and he loves karaoke!",
         presentation: Presentation(

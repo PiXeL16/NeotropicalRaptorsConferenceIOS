@@ -36,16 +36,12 @@ class OrganizersTableViewController: UITableViewController {
     // MARK: - Table view data source
 
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
-        return 3
+        return 1
     }
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
-        switch Sponsor.Level(rawValue: section)! {
-            case .Diamond: return Sponsor.diamondSponsors.count
-            case .Gold: return Sponsor.goldSponsors.count
-            case .Silver: return Sponsor.silverSponsors.count
-        }
+        return Sponsor.sponsors.count
     }
 
     
@@ -58,11 +54,11 @@ class OrganizersTableViewController: UITableViewController {
         return cell
     }
     
-    override func tableView(tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-        
-        let sponsorLevel = Sponsor.Level(rawValue: section)!
-        return sponsorLevel.title
-    }
+//    override func tableView(tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+//        
+////        let sponsorLevel = Sponsor.Level(rawValue: section)!
+////        return sponsorLevel.title
+//    }
     
     override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
 
@@ -80,15 +76,17 @@ class OrganizersTableViewController: UITableViewController {
 private extension OrganizersTableViewController {
     
     func sponsorAtIndexPath(indexPath: NSIndexPath) -> Sponsor {
+        
+        return Sponsor.sponsors[indexPath.row]
 
-        switch Sponsor.Level(rawValue: indexPath.section)! {
-        case .Diamond:
-            return Sponsor.diamondSponsors[indexPath.row]
-        case .Gold:
-            return Sponsor.goldSponsors[indexPath.row]
-        case .Silver:
-            return Sponsor.silverSponsors[indexPath.row]
-        }
-
+//        switch Sponsor.Level(rawValue: indexPath.section)! {
+//        case .Diamond:
+//            return Sponsor.diamondSponsors[indexPath.row]
+//        case .Gold:
+//            return Sponsor.goldSponsors[indexPath.row]
+//        case .Silver:
+//            return Sponsor.silverSponsors[indexPath.row]
+//        }
+//
     }
 }

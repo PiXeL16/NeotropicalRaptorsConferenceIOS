@@ -17,7 +17,7 @@ class MoreTableViewController: UITableViewController {
     }
     
     private enum EventDetailsRow: Int {
-        case About, Venue, CodeOfConduct
+        case About, Venue
     }
     
     private enum AcknowledgementsRow: Int {
@@ -51,7 +51,7 @@ class MoreTableViewController: UITableViewController {
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         switch MoreSection(rawValue: section)! {
         case .EventDetails:
-            return 3
+            return 2
         case .Acknowledgements:
             return 2
         }
@@ -67,8 +67,8 @@ class MoreTableViewController: UITableViewController {
                 cell.textLabel?.text = "About"
             case .Venue:
                 cell.textLabel?.text = "Venue"
-            case .CodeOfConduct:
-                cell.textLabel?.text = "Code of Conduct"
+//            case .CodeOfConduct:
+//                cell.textLabel?.text = "Code of Conduct"
             }
         case .Acknowledgements:
             switch AcknowledgementsRow(rawValue: indexPath.row)! {
@@ -90,8 +90,8 @@ class MoreTableViewController: UITableViewController {
                 showAbout()
             case .Venue:
                 showVenue()
-            case .CodeOfConduct:
-                showCodeOfConduct()
+//            case .CodeOfConduct:
+//                showCodeOfConduct()
             }
         case .Acknowledgements:
             switch AcknowledgementsRow(rawValue: indexPath.row)! {
